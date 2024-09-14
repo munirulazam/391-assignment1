@@ -1,0 +1,193 @@
+html,body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header{
+    background-image: url("images/_AAA4966.jpg");
+    background-position: center;
+    background-size: 100%;
+       
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(136, 32, 206);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+button{
+    /* color: beige; */
+    
+    background: transparent;
+    font-size: 150%;
+    border: none;
+    width: 500px;
+    
+}
+
+#menu{
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: repeat(2, 2fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+#menulink{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 3% 3%;
+
+}
+
+h1, h2, h5{
+    padding: 5% 5%;
+    text-align: center;
+    color: beige;
+    text-shadow: 3px 3px 5px grey;
+    border: px white;
+    
+    
+
+
+}
+
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+h3, h4{
+    text-align: center;
+}
+
+iframe{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    border: 2px solid beige;
+}
+
+.personal-info{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 5%;
+    color: beige;
+
+
+}
+
+/* #header_float{
+    width: 75%;
+    height: 50%;
+
+} */
+
+#img{
+    width: 40%;
+    margin: 35%;
+    border: transparent 1px;
+    border-radius: 50%
+}
+
+
+
+.social-links{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 2% 2%;
+    
+}
+
+ul{
+    color: beige;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 150%;
+
+
+}
+li{
+    background-color: black;
+    color: beige;
+}
+
+.about-me {
+    padding: 40px 15%;
+    text-align: center;
+    color: beige;
+}
+
+.quote {
+    text-align: center;
+    background-color: #080808;
+    padding: 20px 0 10px 0;
+}
+
+.quote q {
+    color: white;
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 100;
+    font-size: 28px;
+}
+.quote p {
+    text-align: right;
+    padding-right: 12%;
+    line-height: 1px;
+    font-size: 14px;
+    color: #e9cfca;
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 100;
+}
+
+footer{
+    color: beige;
+}
+
+.tg  {border-collapse:collapse;
+    border-spacing:0;
+    text-align: center;
+}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
